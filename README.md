@@ -38,3 +38,26 @@ First use only function calls (like in JavaScript) and then use the pipe first o
 You should end up with the same result, but in a more readable manner.
 
 2. Optional pro lesson: Create a search function. It accepts a list of places and a search term and will find all the items based on this term. For simplicity the function should only check against the place name. For an empty string it returns all entries. **Hint**: Use the `Js.String` module whenever you use BuckleScript.
+
+## 4 ReasonReact Intro
+
+1. Setup the editor -> https://reasonml.github.io/docs/en/editor-plugins
+
+2. Create a new ReasonReact BuckleScript project -> https://reasonml.github.io/reason-react/docs/en/installation
+
+```
+npm install -g bs-platform
+bsb -init my-react-app -theme react-hooks
+cd my-react-app && npm install && npm start
+# in another tab
+npm run webpack
+# in another tab
+npm run server
+```
+
+3. Add your Data.re file
+
+4. Render a list of the place names
+
+5. Optional pro lesson: Render other place properties
+
